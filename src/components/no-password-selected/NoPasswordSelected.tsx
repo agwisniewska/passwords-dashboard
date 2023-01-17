@@ -1,5 +1,5 @@
 import classes from './NoPasswordSelected.module.css';
-import Icon from '../../../atoms/icon/Icon';
+import Icon from '../../atoms/icon/Icon';
 
 function NoPasswordSelected() {
     return (

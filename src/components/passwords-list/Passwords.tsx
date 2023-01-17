@@ -1,6 +1,6 @@
-import List from '../../../atoms/list/List';
+import List from '../../atoms/list/List';
 
-import { Password } from '../types';
+import { Password } from '../../features/password-main-container/types';
 
 import PasswordListItem from './password-list-item/PasswordListItem';
 

@@ -1,6 +1,6 @@
 import { ChangeEvent, ReactNode, memo } from 'react';
-import List from '../../../atoms/list/List';
-import ListItem from '../../../atoms/list/list-item/ListItem';
+import List from '../../atoms/list/List';
+import ListItem from '../../atoms/list/list-item/ListItem';
 import clsx from 'clsx';
 import classes from './PasswordEdit.module.css';
 

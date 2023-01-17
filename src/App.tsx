@@ -1,6 +1,6 @@
-import { PasswordLockedContainer } from './components/password-locked-container/PasswordLockedContainer';
-import { PasswordMainContainer } from './components/password-main-container/PasswordMainContainer';
-import { useCryptoKey } from './components/password-main-container/hooks/useCryptoKey';
+import { PasswordLockedContainer } from './features/password-locked-container/PasswordLockedContainer';
+import { PasswordMainContainer } from './features/password-main-container/PasswordMainContainer';
+import { useCryptoKey } from './features/password-main-container/hooks/useCryptoKey';
 
 export default function App() {
     const { cryptoKeyState, setKey, removeKey } = useCryptoKey();

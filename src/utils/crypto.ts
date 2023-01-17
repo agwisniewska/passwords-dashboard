@@ -8,7 +8,6 @@ const ALGORITHM = 'AES-GCM';
 
 
 export function uint8ArrayToBase64String(array: Uint8Array) {
-    // @ts-ignore
     return btoa(String.fromCharCode(...array));
 }
 

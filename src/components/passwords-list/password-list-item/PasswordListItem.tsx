@@ -1,8 +1,8 @@
 import React from 'react';
-import Icon from '../../../../atoms/icon/Icon';
+import Icon from '../../../atoms/icon/Icon';
 import clsx from 'clsx';
 
-import ListItem from '../../../../atoms/list/list-item/ListItem';
+import ListItem from '../../../atoms/list/list-item/ListItem';
 import classes from './PasswordListItem.module.css';
 
 type PasswordListItemProps = {

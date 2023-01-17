@@ -1,14 +1,14 @@
 import React, { ChangeEvent, useCallback, useEffect, useState } from 'react';
 
 import { UrlList } from './UrlList';
-import { Password } from '../types';
-import Icon from '../../../atoms/icon/Icon';
+import { Password } from '../../features/password-main-container/types';
+import Icon from '../../atoms/icon/Icon';
 import LabelledIconButton from './LabelledIconButton';
 import classes from './PasswordEdit.module.css';
-import Labelled from '../../../atoms/label/Labelled';
-import Button from '../../../atoms/button/Button';
-import Input from '../../../atoms/input/Input';
-import TextArea from '../../../atoms/input/TextArea';
+import Labelled from '../../atoms/label/Labelled';
+import Button from '../../atoms/button/Button';
+import Input from '../../atoms/input/Input';
+import TextArea from '../../atoms/input/TextArea';
 
 type PasswordEditProps = {
     isSelected: boolean;

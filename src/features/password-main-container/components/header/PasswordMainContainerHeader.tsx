@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Button from '../../../atoms/button/Button';
-import Header from '../../../atoms/header/Header';
-import Icon from '../../../atoms/icon/Icon';
+import Button from '../../../../atoms/button/Button';
+import Header from '../../../../atoms/header/Header';
+import Icon from '../../../../atoms/icon/Icon';
 import classes from './PasswordMainContainerHeader.module.css';
 
 type PasswordMainContainerHeaderProps = {

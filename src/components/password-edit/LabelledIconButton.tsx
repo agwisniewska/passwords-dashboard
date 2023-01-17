@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 
 import classes from './LabelledIconButton.module.css';
-import Button, { ButtonProps } from '../../../atoms/button/Button';
+import Button, { ButtonProps } from '../../atoms/button/Button';
 import clsx from 'clsx';
 
 type LabelledIconButtonProps = ButtonProps & {

@@ -1,14 +1,14 @@
-import { PasswordMainContainerHeader } from './header/PasswordMainContainerHeader';
+import { PasswordMainContainerHeader } from './components/header/PasswordMainContainerHeader';
 import { usePasswords } from './hooks/usePasswords';
 import classes from './PasswordMainContainer.module.css';
 import { useEffect } from 'react';
 import { encrypt } from '../../utils/crypto';
 import * as storage from '../../utils/storage';
 import { PASSWORDS_STORAGE_KEY } from '../../constants';
-import Passwords from './passwords-list/Passwords';
-import NoPasswords from './no-passwords/NoPasswords';
-import NoPasswordSelected from './no-password-selected/NoPasswordSelected';
-import { PasswordEdit } from './password-edit/PasswordEdit';
+import Passwords from '../../components/passwords-list/Passwords';
+import NoPasswords from '../../components/no-passwords/NoPasswords';
+import NoPasswordSelected from '../../components/no-password-selected/NoPasswordSelected';
+import { PasswordEdit } from '../../components/password-edit/PasswordEdit';
 
 type PasswordMainContainerProps = {
     onLogout: () => void;
